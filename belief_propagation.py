@@ -359,20 +359,20 @@ def main():
 #     # print(marginal_of_i(curm))
 
 # print the result
-    cnt=0
-    for i in range(len(A)):
-      print(f"{r[i]} {eq[i]} {B[i]}")
-      if(eq[i]==">="):
-        if(r[i]<B[i]):
-            print("false")
-            cnt+=1
-            # break
-      else:
-        if(r[i]>=B[i]):
-            print("false")
-            cnt+=1
-            # break
-    print(cnt)
+#     cnt=0
+#     for i in range(len(A)):
+#       print(f"{r[i]} {eq[i]} {B[i]}")
+#       if(eq[i]==">="):
+#         if(r[i]<B[i]):
+#             print("false")
+#             cnt+=1
+#             # break
+#       else:
+#         if(r[i]>=B[i]):
+#             print("false")
+#             cnt+=1
+#             # break
+#     print(cnt)
     
     # print(msg_from_ivariable_to_jnode(0,0,newm[i]))
     # print(msg_from_jnode_to_ivariable(A,B,eq,0,1,prior[1]))
